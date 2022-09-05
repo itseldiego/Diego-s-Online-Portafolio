@@ -1,0 +1,140 @@
+body {
+    background-color: rgba(18, 13, 4, 0.343);
+}
+
+.about-me {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(17, 42, 75);
+    margin: 14px;
+    border: solid black .5px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    color: rgb(241, 240, 240);
+}
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1000px;
+    background-color: rgba(23, 55, 73, 0.939);
+    padding-bottom: 50px;
+    border: solid 1px rgb(4, 70, 92);
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 30%;
+    border: solid .5px rgba(66, 6, 151, 0.777);
+}
+
+
+/* header {
+    width: 50%;
+    height: 50px;
+    background-color: rgb(41, 5, 41);
+} */
+
+.logo {
+    height: 35px;
+}
+
+.logo:hover {
+    height: 50px;
+    transition: .6s;
+    border-radius: 10%;
+    border: solid 2px rgba(21, 88, 84, 0.693);
+}
+
+.pages {
+    color: white;
+    margin: 15px 5px;
+}
+
+.pages:hover {
+    font-size: 18px;
+    transition: .2s;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-color: rgb(11, 49, 81);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    /* margin: 15px 5px; */
+}
+
+.pages-links {
+    display: flex;
+    justify-content: flex-end;
+    /* list-style-type: none;
+    color: wheat; */
+}
+
+section {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(5, 13, 31);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .five-divs {
+    width: 50px;
+    background-color: rgb(58, 82, 103);
+    height: 50px;
+    border: 2px yellow solid;
+    border-radius: 10px;
+}
+
+button {
+    padding: 20px;
+}
+
+button:hover {
+    transition: .2s;
+    background-color: rgb(30, 42, 42);
+    border-radius: 30%;
+    color: beige;
+    box-shadow: 10px 10px 10px 10px #00f;
+}
+
+footer {
+    width: 400px;
+    height: 100px;
+    /* background-color: rgb(79, 132, 154); use backgroung-image */
+    background-image: linear-gradient(rgb(102, 144, 159), rgb(106, 106, 130));
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul>li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
