@@ -21,10 +21,11 @@ body {
 
 .profile-page {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    height: 1000px;
+    justify-content: center;
+    /* height: 1000px; */
     background-color: rgba(23, 55, 73, 0.939);
     padding-bottom: 50px;
     border: solid 1px rgb(4, 70, 92);
@@ -71,12 +72,14 @@ body {
     align-items: center;
     /* margin-top: 30px; */
     background-color: rgb(11, 49, 81);
+    flex-wrap: wrap;
 }
 
 .nav-bar {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+    flex-wrap: wrap;
     /* margin: 15px 5px; */
 }
 
@@ -108,7 +111,7 @@ section .five-divs {
 }
 
 button {
-    padding: 20px;
+    padding: 10px;
 }
 
 button:hover {
@@ -120,8 +123,8 @@ button:hover {
 }
 
 footer {
-    width: 400px;
-    height: 100px;
+    /* width: 400px;
+    height: 100px; */
     /* background-color: rgb(79, 132, 154); use backgroung-image */
     background-image: linear-gradient(rgb(102, 144, 159), rgb(106, 106, 130));
     padding: 10px;
