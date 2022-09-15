@@ -1,18 +1,25 @@
 body {
-    background-color: rgba(18, 13, 4, 0.343);
+    background-color: rgba(223, 185, 116, 0.343);
+}
+
+.about-me-info {
+    max-width: 400px;
+    min-width: 250px;
 }
 
 .about-me {
-    width: 300px;
+    width: 100%;
+    min-width: 400px;
     /* height: 300px; */
-    background-color: rgb(17, 42, 75);
+    background-color: rgb(163, 163, 163);
     margin: 14px;
     border: solid black .5px;
     border-radius: 3%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 
@@ -30,7 +37,8 @@ body {
 }
 
 #name {
-    color: rgb(241, 240, 240);
+    color: rgb(28, 12, 12);
+    text-align: center;
 }
 
 .profile-page {
@@ -40,29 +48,38 @@ body {
     align-items: center;
     justify-content: center;
     /* height: 1000px; */
-    background-color: rgba(23, 55, 73, 0.939);
+    background-color: rgba(197, 195, 191, 0.939);
     padding-bottom: 50px;
     border: solid 1px rgb(4, 70, 92);
+    min-width: 400px;
 }
 
 .avatar {
-    width: 150px;
-    border-radius: 30%;
+    width: 250px;
+    border-radius: 90%;
     border: solid .5px rgba(66, 6, 151, 0.777);
     margin-bottom: 10px;
 }
 
 button {
+    width: 250px;
     padding: 10px;
     margin: 10px;
+    font-size: 16px;
 }
+
+
+/* .hire-button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
 
 button:hover {
     transition: .2s;
-    background-color: rgb(30, 42, 42);
-    border-radius: 30%;
-    color: beige;
-    box-shadow: 10px 10px 10px 10px #00f;
+    background-color: gray;
+    box-shadow: 2px 2px 2px 2px rgb(138, 138, 181);
 }
 
 
@@ -99,8 +116,9 @@ button:hover {
     justify-content: space-evenly;
     align-items: center;
     /* margin-top: 30px; */
-    background-color: rgb(11, 49, 81);
+    background-color: rgb(177, 169, 141);
     flex-wrap: wrap;
+    min-width: 400px;
 }
 
 .nav-bar {
@@ -120,7 +138,7 @@ button:hover {
 
 section {
     height: 300px;
-    background-color: rgb(5, 13, 31);
+    background-color: rgb(211, 207, 187);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -141,7 +159,7 @@ footer {
     /* width: 400px;
     height: 100px; */
     /* background-color: rgb(79, 132, 154); use backgroung-image */
-    background-image: linear-gradient(rgb(102, 144, 159), rgb(106, 106, 130));
+    background-image: linear-gradient(rgb(40, 101, 124), rgb(106, 106, 130));
     padding: 10px;
     font-size: 20px;
     display: flex;
@@ -155,4 +173,16 @@ ul>li {
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.input-section {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
