@@ -62,19 +62,13 @@ body {
 }
 
 button {
-    width: 250px;
-    padding: 10px;
-    margin: 10px;
+    width: 320px;
+    height: 44px;
+    padding: 0.53m 1.5em 0.5em 0;
+    position: relative;
+    text-align: center;
     font-size: 16px;
 }
-
-
-/* .hire-button {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
 
 button:hover {
     transition: .2s;
@@ -98,6 +92,7 @@ button:hover {
     transition: .6s;
     border-radius: 10%;
     border: solid 2px rgba(21, 88, 84, 0.693);
+    box-shadow: -2px 0px 13px 5px rgba(34, 187, 192, 0.31);
 }
 
 .pages {
@@ -108,6 +103,7 @@ button:hover {
 .pages:hover {
     font-size: 18px;
     transition: .2s;
+    box-shadow: -2px 0px 13px 5px rgba(34, 187, 192, 0.31);
 }
 
 .main-info {
@@ -155,6 +151,11 @@ section .five-divs {
     border-radius: 10px;
 }
 
+.five-divs:hover {
+    border: rgb(24, 24, 14) 2px solid;
+    box-shadow: -2px 0px 13px 5px rgba(34, 187, 192, 0.31);
+}
+
 footer {
     /* width: 400px;
     height: 100px; */
@@ -185,4 +186,5 @@ ul>li {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-bottom: 10px;
 }
