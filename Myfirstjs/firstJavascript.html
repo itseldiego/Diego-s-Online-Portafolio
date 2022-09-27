@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Javascript Project</title>
+
+    <!-- <script>
+        function countToTen() {
+            var count = 0;
+            while (count < 10) {
+                count++;
+                document.getElementById("theCount").innerHTML += count + "<br>";
+            }
+        }
+    </script>  -->
+</head>
+
+<body onload="countToTen();">
+    <h1>Lets count to ten with javascript</h1>
+    <p id="theCount"></p>
+
+    <button id="bigButton" onclick="alert('Hello world!');">Hey, click me</button>
+
+    <!-- <script>
+        function countToTen() {
+            var count = 0;
+            while (count < 10) {
+                count++;
+                document.getElementById("theCount").innerHTML += count + "<br>";
+            }
+        }
+    </script> -->
+    <!-- 
+    <p>we will create another file for the javascript code and src to main page(here)</p>
+    <script src="firstScript.js"></script> -->
+
+    <script>
+        var firstNum = prompt("enter a number: ");
+        var secondNum = prompt("enter another number: ");
+        var total = Number(firstNum) + Number(secondNum);
+        alert("your total is " + total);
+    </script>
+</body>
+
+</html>
